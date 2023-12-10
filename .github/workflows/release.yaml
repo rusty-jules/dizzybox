@@ -31,4 +31,4 @@ jobs:
         with:
           push: true
           platforms: linux/amd64,linux/arm64
-          tags: derevit/dizzybox:${{ github.event.release.tag_name }}
+          tags: derevit/dizzybox:${{ github.event.release.tag_name }}, derevit/dizzybox:latest
