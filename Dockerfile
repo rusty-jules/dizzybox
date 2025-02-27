@@ -1,6 +1,6 @@
 FROM alpine:edge
 
-ENV NUSHELL_VERSION "0.87.1-r0"
+ENV NUSHELL_VERSION "0.100.0-r1"
 
 RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories
 RUN apk add --no-cache \
